@@ -72,12 +72,21 @@ fav_songs = [
     "Break on Through - The Doors",
     "Bat out of Hell - Meatloaf"
 ]
-print(fav_songs)
-fav_songs[1] = "Ragdoll - Aerosmith"
+# print(fav_songs)
+# fav_songs[1] = "Ragdoll - Aerosmith"
 
-print(fav_songs)
-print(len(fav_songs))
-fav_songs.append("Enter Sandman -Megadeath")
-print(fav_songs)
-fav_songs.pop(2)
-print(fav_songs)
+# print(fav_songs)
+# print(len(fav_songs))
+# fav_songs.append("Enter Sandman -Megadeath")
+# print(fav_songs)
+# fav_songs.pop(2)
+# print(fav_songs)
+#for i in fav_songs:
+#    print(1)
+#for i in range(2,10,2):
+#    print(i)
+# num = 0
+# while num < 10:
+#     num +=1
+#     print(num)
+#activity 1
