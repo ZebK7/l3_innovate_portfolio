@@ -34,14 +34,43 @@
 
 #     print("come in")
 
-def add_up():
-    num1 = input("What is the first number you'd like to add up? \n")
-    num2 = input("What is the second number you'd like to add up? \n")
+# def add_up():
+#     num1 = input("What is the first number you'd like to add up? \n")
+#     num2 = input("What is the second number you'd like to add up? \n")
     
-    try:
-        print(int(num1) + int(num2))
-    except:
-            print("please use numbers only")
-            print("try again")
-            add_up()
-add_up()
+#     try:
+#         print(int(num1) + int(num2))
+#     except:
+#             print("please use numbers only")
+#             print("try again")
+#             add_up()
+# add_up()
+# light = False
+# def light_switch():
+#     global light
+#     if light:
+#         print("Whoa! It's bright in here")
+#         light = False
+#     else:
+#         print("Who turned out the lights?")
+#         light = True
+# light_switch()
+# light_switch()
+# fav_songs = [
+#     "Paint it Black - Rolling Stones",
+#     "Break on Through - The Doors",
+#     "Bat out of Hell - Meatloaf",
+#     "Ragdoll - Aerosmith"
+# ]
+# #start position, stop position, step
+# print(fav_songs[1:2:1])  
+# def isPalindrome(pal):
+#     return pal == pal[::-1]
+
+# pal = "radar"
+# ans = isPalindrome(pal)
+
+# if ans:
+#     print("Yes")
+# else:
+#     print("No")
