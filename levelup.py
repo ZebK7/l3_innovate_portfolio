@@ -74,3 +74,6 @@
 #     print("Yes")
 # else:
 #     print("No")
+# number = input()
+# number = int(input("Enter a number "))
+# print("you have entered", number)
