@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 124, 209);
+}
+
+h1, h2{
+    color: crimson;
+    text-align: center;
+}
+
+p{
+    color:blueviolet;
+    font-size: 32px;
+}
+
+.centretext{
+    text-align: center;
+}
+
+#maintitle{
+    color: green;
+    text-decoration: underline;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 40;
+
+}
+a:hover{
+    color: orange;
+}
+
+img:hover{
+    border: 10px solid blue;
+
+}
+
+.content{
+    text-align: center;
+    width:40vw;
+}
