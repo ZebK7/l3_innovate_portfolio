@@ -1,0 +1,10 @@
+$mainAccent: #33c135;
+$headingFont: "Poiret One", cursive;
+$contentFont: "Josephin Sans", sans-serif;
+
+@mixin heading{
+  font-family: $headingFont;
+  color: $mainAccent;
+  text-align: center;
+  margin-top: 0px;
+}
