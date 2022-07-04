@@ -1,0 +1,43 @@
+body{
+    color: red;
+}
+
+.desktop, .mobile {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    body {
+        color:blue;
+    }
+}
+
+@media (orientation: landscape) {
+    .desktop {
+        display: inline-block;
+    }
+}
+@media (orientation: portrait) {
+    .mobile {
+        display: inline-block;
+    }
+}
+
+@media (orientation: portrait){
+    .title {
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+        font-size: 2em;
+    }
+}
+@media (orientation: landscape){
+    .title {
+        color: green;
+        background-color: orange;
+        text-align: center;
+        padding: 5%;
+        font-size: 4em;
+    }
+}
