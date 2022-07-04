@@ -43,20 +43,20 @@ body{
 }
 @media (prefers-color-scheme: dark) {
     .desktop {
-      background-color: black;
+    background-color: black;
     }
-  
-    h1 {
-      color: white;
-    }
-  }
 
-  @media (prefers-color-scheme: light) {
-    .mobile {
-      background-color: white;
-    }
-  
     h1 {
-      color: black;
+    color: white;
     }
-  }
+}
+
+@media (prefers-color-scheme: light) {
+    .mobile {
+    background-color: white;
+    }
+
+    h1 {
+    color: black;
+    }
+}
