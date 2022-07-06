@@ -39,3 +39,15 @@ def admin_redirect():
 @my_view.route('/Index')
 def index_redirect():
     return redirect(url_for("my_view.index"))
+
+@my_view.route('/javascript')
+def javascript_redirect():
+    return redirect(url_for("my_view.index"))    
+
+@my_view.route('/js')
+def js_redirect():
+    return redirect(url_for("my_view.index"))    
+
+@my_view.route('/home')
+def home_redirect():
+    return redirect(url_for("my_view.index"))            
