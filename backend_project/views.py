@@ -33,9 +33,9 @@ def admin():
 
 
 @my_view.route('/Admin')
-def about_redirect():
-    return redirect(url_for("admin.html"))
+def admin_redirect():
+    return redirect(url_for("my_view.admin"))
 
 @my_view.route('/Index')
-def Index_redirect():
-    return redirect(url_for("index.html"))
+def index_redirect():
+    return redirect(url_for("my_view.index"))
