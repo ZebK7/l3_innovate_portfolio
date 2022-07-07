@@ -24,7 +24,7 @@ def page4():
     return render_template("page4.html")
 
 @my_view.route('/page5')
-def page6():
+def page5():
     return render_template("page5.html")
 
 @my_view.route('/admin')

@@ -11,13 +11,13 @@
 
     <body>
         <div class="topnav">
-            <a class="active" href="#index.html">Home</a>
-            <a href="#page1.html">page 1</a>
-            <a href="#page2.html">page 2</a>
-            <a href="#page3.html">page 3</a>
-            <a href="#page4.html">page 4</a>
-            <a href="#page5.html">page 5</a>
-            <a href="#admin.html">Admin</a>
+            <a class="active" href="{{ url_for('my_view.index')}}">Home</a>
+            <a href="{{ url_for('my_view.page1')}}">page 1</a>
+            <a href="{{ url_for('my_view.page2')}}">page 2</a>
+            <a href="{{ url_for('my_view.page3')}}">page 3</a>
+            <a href="{{ url_for('my_view.page4')}}">page 4</a>
+            <a href="{{ url_for('my_view.page5')}}">page 5</a>
+            <a href="{{ url_for('my_view.admin')}}">Admin</a>
         </div>
 
     {% block content%}
