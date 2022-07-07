@@ -56,6 +56,11 @@ button {
     justify-content: center;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 .flex-container-h2 {
     display: flex;
     flex-direction: row;
